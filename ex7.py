@@ -1,5 +1,5 @@
 print("Mary had a little lamb.")
-print("It's fleece was wite as {}.".format('snow'))
+print("It's fleece was white as {}.".format('snow'))
 print("And everywhere that Mary went.")
 print("." * 10) #..........
 
