@@ -13,3 +13,9 @@ print("""
     Even 4 lines if we want, or 5 or 6.
 """)
 
+print("""
+    Mary had a little lamb.
+    It's fleece was white as {}
+    And everywhere that Mary went.
+    {}
+""".format('snow', '.' * 10))
