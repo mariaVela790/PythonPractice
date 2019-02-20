@@ -37,4 +37,4 @@ print("Let's print three lines:")
 # print_a_line(current_line, current_file)
 
 for i in range(3):
-    print_a_line(i + 1, current_file)
+    print_a_line(i, current_file)
