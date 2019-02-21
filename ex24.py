@@ -31,14 +31,23 @@ start_point = 10000
 # This next line calls the function to the values and assign them to beans, jars, crates
 beans, jars, crates = secret_formula(start_point)
 
-print("With a starting point of: {}".format(start_point))
+#
+# print("With a starting point of: {}".format(start_point))
+#
+# print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.")
+#
+# # start_point = start_point / 10
+#
+# print("We can also do that this way:")
+# # This one assigns the values in a different
+# # formula = secret_formula(start_point)
+#
+# print("We'd have {} beans, {} jars, and {} crates.".format(*secret_formula(start_point / 10)))
 
-print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.")
+print(f"""
+With a starting point of: {start_point}
+We'd have {beans} beans, {jars} jars, and {crates} crates.
+We can also do that this way:
+""")
 
-start_point = start_point / 10
-
-print("We can also do that this way:")
-# This one assigns the values in a different
-formula = secret_formula(start_point)
-
-print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
+print("We'd have {} beans, {} jars, and {} crates.".format(*secret_formula(start_point/10)))
