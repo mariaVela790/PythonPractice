@@ -12,7 +12,6 @@ print(txt.read())
 print("Edit the file by typing in what you want to add:")
 edit = input('> ')
 
-txt.write(f'{edit}')
 
 
 txt.close()
