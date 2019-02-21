@@ -10,11 +10,13 @@ def sort_words(words):
     """Sort the words."""
     return sorted(words)
 
+
 # destructive to list
 def print_first_word(words):
     """"Prints the first word after popping it off."""
     word = words.pop(0)
     print(word)
+
 
 # destructive to list
 def print_last_word(words):
