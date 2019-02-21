@@ -26,3 +26,7 @@ for i in range(0, 6):
 # now we can print them out too
 for i in elements:
     print(f"Element was: {i}")
+
+new_elem = elements.__add__([7, 9, 10])
+
+print(new_elem)
